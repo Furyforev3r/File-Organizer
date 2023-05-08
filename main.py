@@ -1,9 +1,9 @@
 import os
 import shutil
 
-iniciar = input("Do you want to organize the files? (Y/N)\n- ")
+start_input = input("Do you want to organize the files? (Y/N)\n- ")
 
-if iniciar.lower() == "y":
+if start_input.lower() == "y":
     extensions = {
         "PNG": "Images",
         "JPG": "Images",
