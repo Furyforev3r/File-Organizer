@@ -15,7 +15,7 @@ if start_input.lower() == "y":
     files = os.listdir()
 
     for file in files:
-        file_extension = file.split(".")[1]
+        file_extension = file.split(".")[-1]
         for extension in extensions:
             if extension.lower() == file_extension.lower():
                 if not os.path.exists(extensions[extension]):
